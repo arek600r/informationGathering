@@ -1,4 +1,15 @@
-#kilka słów o czymś
+from tkinter import *
 
-print("hello world")
-print('Another one line')
+root = Tk()
+
+def printName(event):
+    print("Hello my name is Arek")
+
+button_1 = Button(root, text="Print my name")
+button_1.bind("<Button-1>", printName)
+button_1.pack()
+
+
+
+
+root.mainloop()
