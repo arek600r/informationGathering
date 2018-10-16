@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24a5a49e-6b5d-4cd5-b7a5-14ad14121605" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/example.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example4.py" beforeDir="false" afterPath="$PROJECT_DIR$/example4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example6.py" beforeDir="false" afterPath="$PROJECT_DIR$/example6.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +17,8 @@
     <SUITE FILE_PATH="coverage/informationGathering$dropmeny.coverage" NAME="dropmeny Coverage Results" MODIFIED="1539632278243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/informationGathering$hex.coverage" NAME="hex Coverage Results" MODIFIED="1539641566876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/informationGathering$example2.coverage" NAME="example2 Coverage Results" MODIFIED="1539718754579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/informationGathering$example6.coverage" NAME="example6 Coverage Results" MODIFIED="1539725400703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/informationGathering$dict1.coverage" NAME="dict1 Coverage Results" MODIFIED="1539726907628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/informationGathering$example6.coverage" NAME="example6 Coverage Results" MODIFIED="1539726483520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/informationGathering$tkinterclass.coverage" NAME="tkinterclass Coverage Results" MODIFIED="1539631104355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/informationGathering$example3.coverage" NAME="example3 Coverage Results" MODIFIED="1539718872805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/informationGathering$main.coverage" NAME="main Coverage Results" MODIFIED="1539629803300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -41,48 +40,34 @@
         <counts>
           <entry key="csv" value="1" />
           <entry key="js" value="1" />
-          <entry key="py" value="12" />
+          <entry key="py" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="12" />
+          <entry key="Python" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="106" />
           <entry key="csv" value="57" />
-          <entry key="py" value="4122" />
+          <entry key="py" value="4684" />
           <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="71" />
-          <entry key="Python" value="4228" />
+          <entry key="Python" value="4790" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mauseclick.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-              <folding>
-                <marker date="1539630094167" expanded="true" signature="56:61" ph="..." />
-                <marker date="1539630094167" expanded="true" signature="99:104" ph="..." />
-                <marker date="1539630094167" expanded="true" signature="143:148" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tkinterclass.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -162,11 +147,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/example6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="10" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dict1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -210,6 +204,7 @@
         <option value="$PROJECT_DIR$/example5.py" />
         <option value="$PROJECT_DIR$/example.csv" />
         <option value="$PROJECT_DIR$/example6.py" />
+        <option value="$PROJECT_DIR$/dict1.py" />
       </list>
     </option>
   </component>
@@ -264,8 +259,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.example6">
-    <configuration name="example2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.dict1">
+    <configuration name="dict1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="informationGathering" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -278,7 +273,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/example2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dict1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -376,19 +371,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.example2" />
       <item itemvalue="Python.example3" />
       <item itemvalue="Python.example4" />
       <item itemvalue="Python.example5" />
       <item itemvalue="Python.example6" />
+      <item itemvalue="Python.dict1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dict1" />
         <item itemvalue="Python.example6" />
         <item itemvalue="Python.example5" />
         <item itemvalue="Python.example4" />
         <item itemvalue="Python.example3" />
-        <item itemvalue="Python.example2" />
       </list>
     </recent_temporary>
   </component>
@@ -424,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539723298207</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Second commit">
+      <created>1539725534088</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1539725534088</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -608,8 +610,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/example6.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="10" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dict1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>

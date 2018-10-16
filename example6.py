@@ -17,11 +17,19 @@ with open('example.csv') as csvfile:
     print(dates)
     print(colors)
 
+    try:
+        whatColor = input('What color do you wish to know the date of?')
 
-    whatColor = input('What color do you wish to know the date of?')
+        if whatColor in colors:
 
-    coldex = colors.index(whatColor)
+            coldex = colors.index(whatColor)
+            theDate = dates[coldex]
+            print('The date of ', whatColor, 'is: ', theDate)
+        else:
+            print('Color not found,or is not a ')
 
-    theDate = dates[coldex]
+    #except Exception, e
+    except Exception as e:
+        print(e)
 
-    print('The date of ', whatColor, 'is: ', theDate)
+    print('continuing')
