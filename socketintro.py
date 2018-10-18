@@ -14,7 +14,7 @@ request = "GET / HTTP/1.1\nHost: "+server+"\n\n"
 
 s.connect((server,port))
 s.send(request.encode())
-result = s.recv(4096)
+result = s.recv(1024)
 
 #print(result)
 
